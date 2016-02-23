@@ -1,0 +1,13 @@
+[package]
+name = "match-any"
+version = "0.0.1"
+authors = ["DarkEld3r <stanislav.tkach@gmail.com>"]
+repository = "https://github.com/DarkEld3r/match-any.git"
+homepage = "https://github.com/DarkEld3r/match-any.git"
+license = "MIT"
+readme = "README.md"
+description = "Match like macro for std::any::Any"
+keywords = ["match", "any", "macro"]
+
+[lib]
+name = "match-any"
