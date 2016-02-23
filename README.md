@@ -1,4 +1,4 @@
-# match-any
+# match_any
 
 [![license-image][]] [license-file]
 [![travis-ci-image][]] [travis-ci-link]
@@ -12,8 +12,8 @@ Match like macro for std::any::Any.
 ## Building
 
 ```sh
-git clone https://github.com/DarkEld3r/match-any
-cd match-any
+git clone https://github.com/DarkEld3r/match_any
+cd match_any
 cargo build
 ```
 ## Running
@@ -24,7 +24,7 @@ cargo run
 
 ## License
 
-Match-any is licensed under the MIT license (see the `LICENSE` file).
+Match_any is licensed under the MIT license (see the `LICENSE` file).
 
 [travis-ci-image]: https://travis-ci.org/DarkEld3r/rrthozopsi.png?branch=master
 [travis-ci-link]: https://travis-ci.org/DarkEld3r/rrthozopsi
