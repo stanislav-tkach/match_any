@@ -41,7 +41,7 @@ Match_any is licensed under the MIT license (see the `LICENSE` file).
 [travis-ci-image]: https://travis-ci.org/DarkEld3r/match_any.png?branch=master
 [travis-ci-link]: https://travis-ci.org/DarkEld3r/match_any
 [appveyor-ci-image]: https://ci.appveyor.com/api/projects/status/jp11knq37hosf529/branch/master?svg=true
-[appveyor-ci-link]: https://ci.appveyor.com/project/DarkEld3r/match_any
+[appveyor-ci-link]: https://ci.appveyor.com/project/DarkEld3r/match-any
 [license-image]: http://img.shields.io/badge/license-MIT-blue.svg
 [license-file]: https://github.com/DarkEld3r/match_any/blob/master/LICENSE
 [coveralls-image]: https://coveralls.io/repos/github/DarkEld3r/match_any/badge.svg?branch=master
