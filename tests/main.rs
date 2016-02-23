@@ -7,7 +7,7 @@ fn empty() {
     
     match_any!(a => 
         x: i32 => { 
-            println!("i32 = {}", x);
+            assert_eq!(x, 10);
         }
     );
 }
