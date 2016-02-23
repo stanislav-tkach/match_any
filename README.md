@@ -24,7 +24,7 @@ and this to your crate root:
 extern crate match_any;
 ```
 
-Example:
+### Example
 
 ```rust
 extern crate regex;
