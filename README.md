@@ -9,17 +9,29 @@
 
 Match like macro for std::any::Any.
 
-## Building
+## Usage
 
-```sh
-git clone https://github.com/DarkEld3r/match_any
-cd match_any
-cargo build
+Add this to your `Cargo.toml`:
+
+```toml
+[dependencies]
+match_any = { git = "https://github.com/DarkEld3r/match_any.git" }
 ```
-## Running
 
-```sh
-cargo run
+and this to your crate root:
+
+```rust
+extern crate match_any;
+```
+
+Example:
+
+```rust
+extern crate regex;
+
+fn main() {
+    // TODO: FIXME.
+}
 ```
 
 ## License
