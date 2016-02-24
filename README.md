@@ -27,10 +27,18 @@ extern crate match_any;
 ### Example
 
 ```rust
-extern crate regex;
+#[macro_use] extern crate match_any;
 
 fn main() {
-    // TODO: FIXME.
+    match_any!(make_any(10) => 
+        _x: i8 => { 
+            // ...
+        }
+        _x: i16 => { 
+            // ...
+        }
+        // ...
+    );
 }
 ```
 
