@@ -8,6 +8,7 @@
 ## Overview
 
 Match like macro for std::any::Any.
+// TODO: support '_'.
 
 ## Usage
 
