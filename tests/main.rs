@@ -7,7 +7,7 @@ fn empty() {
     
     match_any!(a => 
         x: i32 => { 
-            assert_eq!(x, 10);
+            assert_eq!(*x, 10);
         }
     );
 }
