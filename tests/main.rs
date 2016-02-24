@@ -15,5 +15,4 @@ fn match_i32() {
     );
 }
 
-// TODO: Add.
-// #[bench]
+// TODO: Add #[bench].
