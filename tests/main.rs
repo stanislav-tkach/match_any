@@ -1,11 +1,14 @@
 #[macro_use] extern crate match_any;
 
+use std::any::Any;
+
+fn make_any<T: Any>(value: T) -> Box<Any> {
+    Box::new(value)
+}
+
 #[test]
 fn empty() {
-    let a: Box<std::any::Any> = Box::new(10);
-    println!("{:?}", a);
-    
-    match_any!(a => 
+    match_any!(make_any(10) => 
         x: i32 => { 
             assert_eq!(*x, 10);
         }
