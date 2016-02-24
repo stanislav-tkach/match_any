@@ -7,7 +7,7 @@ homepage = "https://github.com/DarkEld3r/match_any.git"
 license = "MIT"
 readme = "README.md"
 description = "Match like macro for std::any::Any"
-keywords = ["match", "any", "macro"]
+keywords = ["match_any", "any_match", "match", "any", "macro"]
 
 [lib]
 name = "match_any"
