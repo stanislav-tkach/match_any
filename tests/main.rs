@@ -7,7 +7,7 @@ fn make_any<T: Any>(value: T) -> Box<Any> {
 }
 
 #[test]
-fn empty() {
+fn match_i32() {
     match_any!(make_any(10) => 
         x: i32 => { 
             assert_eq!(*x, 10);
